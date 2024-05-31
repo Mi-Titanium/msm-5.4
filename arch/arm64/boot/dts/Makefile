@@ -6,7 +6,7 @@ ifneq "$(wildcard $(vendor)/Makefile)" ""
 else
 subdir-y += actions
 subdir-y += al
-subdir-y += allwinner
+#subdir-y += allwinner
 subdir-y += altera
 subdir-y += amd
 subdir-y += amlogic
@@ -17,7 +17,7 @@ subdir-y += broadcom
 subdir-y += cavium
 subdir-y += exynos
 subdir-y += freescale
-subdir-y += hisilicon
+#subdir-y += hisilicon
 subdir-y += intel
 subdir-y += lg
 subdir-y += marvell
