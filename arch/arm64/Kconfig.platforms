@@ -419,4 +419,11 @@ config ARCH_SA2150P
 	  If you do not wish to build a kernel that runs on this chipset,
 	  say 'N' here.
 
+config MACH_XIAOMI_YSL
+ 	bool  "XIAOMI platform"
+ 	depends on ARCH_MSM8953
+ 	help
+ 	  Support for the Xiaomi Redmi S2 platform
+ 	  which is based on QCOM MSM8953 chipset.
+
 endmenu
