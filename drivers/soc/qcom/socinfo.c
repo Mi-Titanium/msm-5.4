@@ -798,6 +798,9 @@ static const struct soc_id soc_id[] = {
 	{ 515, "YUPIK-LTE" },
 	{ 575, "KATMAI" },
 	{ 576, "KATMAIP" },
+	/* 8953 ID */
+	[293] = {MSM_CPU_8953, "MSM8953"},
+	[304] = {MSM_CPU_8953, "APQ8053"},
 };
 
 static struct qcom_socinfo *qsocinfo;
